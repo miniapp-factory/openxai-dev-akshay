@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { description, title, url } from "@/lib/metadata";
+import { title, url } from "@/lib/metadata";
 import VegetableSuggestions from "@/components/vegetable-suggestions";
 
 export const dynamic = "force-dynamic";

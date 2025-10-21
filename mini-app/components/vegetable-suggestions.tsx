@@ -72,7 +72,7 @@ export default function VegetableSuggestions() {
         </div>
       )}
       {input && suggestions.length === 0 && (
-        <p className="text-muted-foreground">No recipes found for "{input}".</p>
+        <p className="text-muted-foreground">No recipes found for '{input}'.</p>
       )}
     </div>
   );
